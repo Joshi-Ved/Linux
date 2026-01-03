@@ -157,26 +157,6 @@ These productivity tricks will speed up your terminal work significantly.
 - For long outputs, add | less to scroll comfortably.
 - Set aliases in ~/.bashrc or ~/.zshrc, for example: alias ll="ls -la".
 
----
-
-## Common Pitfalls to Avoid
-
-Learn from these common mistakes to avoid losing data or breaking your system.
-
-- **Destructive commands**: Running `rm -r` as root without verifying the path. Always double-check before pressing Enter.
-- **Package manager conflicts**: Mixing package managers (apt vs dnf/yum) on the same distro. Use only the native package manager.
-- **Paths with spaces**: Forgetting to quote paths containing spaces: use `cp "My File.txt" destination/` instead.
-- **Missing commands**: Assuming `netstat` exists everywhere; modern systems often use `ss` instead.
-
----
-
-## Next Steps
-
-- **Practice regularly**: Run each command in a safe sandbox directory to get comfortable.
-- **Experiment with flags**: Most commands have useful options. Use `man <command>` to explore them.
-- **Customize your workflow**: Create aliases and scripts for commands you use frequently.
-- **Share your knowledge**: Document your own discoveries and contribute to the Linux community.
-
 Remember: the terminal is your most powerful tool. Master it, and you'll unlock the full potential of Linux.
 
 ---
