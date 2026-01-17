@@ -12,8 +12,6 @@
 9. [Networking and Transfers](#networking-and-transfers)
 10. [Processes and System Info](#processes-and-system-info)
 11. [Everyday Quality-of-Life Tips](#everyday-quality-of-life-tips)
-12. [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
-13. [Next Steps](#next-steps)
 
 ---
 
