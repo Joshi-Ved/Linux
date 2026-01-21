@@ -1,5 +1,9 @@
 !#/bin/bash
 
+cd /home/Blankstar/Linux/
+
+echo "This script is running to test auto comitting a message on git hub"
+echo "Current directory: $(pwd)"
 echo "This script is running to test auto comitting a message on git hub"
 echo "Checking GitHub for updates..."
 git fetch
