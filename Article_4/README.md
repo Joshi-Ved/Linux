@@ -1,5 +1,5 @@
 # Article 4: System Health Check & Bash Logic
-##1. The Theory: Why we use these symbols
+1. The Theory: Why we use these symbols
 
 Before looking at the commands, it is important to understand the syntax that makes Bash work.
 The Shebang (#!/bin/bash)
@@ -34,7 +34,7 @@ If you want to use the result of a command (like the output of pwd) inside a sen
 
     Without the $(), Bash would literally print the letters "p-w-d" instead of your actual folder path.
 
-##2. Command Glossary
+2. Command Glossary
 
 *Command 	What it does	      Why the "Flags" matter*
 pwd	 Print Working Directory  Shows exactly where you are in the file system.
@@ -43,17 +43,10 @@ free -h 	Check Memory	 -h stands for Human Readable (converts bytes to GB/MB).
 uptime	    System Longevity	 Shows how long the computer has been on and the "load" (stress).
 date    	Timestamp	 Useful for logging when a health check was performed.
 
-##3. The Implementation
-
-\`\`\`bash
-./Script.sh
-\`\`\`
-
-\`\`\`bash 
-./Script2.sh
-\`\`\` 
-
-## 3. Output
+3. The Implementation
+[Script.sh](Article_4/Script.sh)
+[Script2.sh](Article_4/Script2.sh)
+4. The output
 Below is a screenshot demonstrating the expected output of the script:
 
 ![Script Output Screenshot](./Script_output.png)
