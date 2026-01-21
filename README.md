@@ -8,4 +8,5 @@ Short, honest notes from my switch to Linux: what I tried, what broke, and how I
 - [Article 2: Mastering Basic Linux Commands](Article_2/README.md) — Essential terminal commands for navigation, file management, networking, and everyday Linux tasks.
 - [Article 3: Recovering from a Catastrophic Dual Boot Disaster](Article_3/readme.md) — How I accidentally deleted my boot files, lost access to all OS, and manually recovered using EFI commands.
 - [Article 4: Beginning of Bash Scripting](Article_4/README.md) — Now I will be beginning with bash scripting, understandhing how it works and why it is still used.
+- [Article 5: Automation using Bash Scripting](Article_5/README.md) — Automated the process of comitting to github system wide.
 
